@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 50px 1fr 162px;
+  padding: 12px;
+  align-items: center;
+  gap: 12px;
+
+  background-color: #fff;
+  border-radius: 12px;
+
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+.item:hover {
+  opacity: 0.7;
+}
+
+.item:active {
+  opacity: 0.4;
+}
+.item__img {
+  padding: 12px;
+}
+.item__name {
+  padding: 12px;
+}
+
+.item__method {
+  padding: 12px;
+}
