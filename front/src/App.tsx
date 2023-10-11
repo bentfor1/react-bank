@@ -49,7 +49,7 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Routes>
           <Route
-            index
+            path="/index"
             element={
               <AuthRoute>
                 <WellcomePage />
